@@ -1,0 +1,13 @@
+tao app: python manage.py startapp ten_app
+    - them app vao INSTALLED_APPS trong setting
+    - viet model
+    - viet serializer
+    - viet view
+    - viet url
+    - them vao src/urls
+
+tao venv: python -m venv <name>
+active:  .\helloShop\Scripts\activate
+dong bo db voi python: python manage.py makemigrations -> python manage.py migrate
+run: python manage.py runserver
+tao user admin (tao 1 lan duy nhat): python manage.py createsuperuser
